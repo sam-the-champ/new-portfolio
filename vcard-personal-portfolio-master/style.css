@@ -480,7 +480,7 @@ main {
   transition: color var(--transition-1);
 }
 .navbar-link i {
-  margin-right: 8px;
+  margin-right: 4px;
 }
 
 .navbar-link:hover,
