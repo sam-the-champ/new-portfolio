@@ -479,9 +479,6 @@ main {
   padding: 20px 7px;
   transition: color var(--transition-1);
 }
-.navbar-link i {
-  margin-right: 4px;
-}
 
 .navbar-link:hover,
 .navbar-link:focus { color: var(--light-gray-70); }
