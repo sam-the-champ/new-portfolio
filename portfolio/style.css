@@ -329,8 +329,8 @@ main {
 }
 
 .avatar-box {
-  width: 80px;
-  height: 80px;
+  width: 140px;
+  height: 180px;
   flex-shrink: 0;
 
   border-radius: 50%;
