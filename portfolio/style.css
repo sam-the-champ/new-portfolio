@@ -330,7 +330,7 @@ main {
 
 .avatar-box {
   width: 140px;
-  height: 180px;
+  height: 140px;
   flex-shrink: 0;
 
   border-radius: 50%;
