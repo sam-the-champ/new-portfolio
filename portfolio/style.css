@@ -1264,6 +1264,29 @@ textarea.form-input::-webkit-resizer { display: none; }
   .project-img,
   .blog-banner-box { height: auto; }
 
+  .avatar-box {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+
+  border-radius: 50%;
+  overflow: hidden;
+
+  background: var(--bg-gradient-onyx);
+  border: 2px solid var(--orange-yellow-crayola);
+
+  box-shadow: var(--shadow-2);
+}
+
+.avatar-box img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
 }
 
 
@@ -1325,7 +1348,28 @@ textarea.form-input::-webkit-resizer { display: none; }
     font-size: 18px;
   }
 
+  .avatar-box {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
 
+  border-radius: 50%;
+  overflow: hidden;
+
+  background: var(--bg-gradient-onyx);
+  border: 2px solid var(--orange-yellow-crayola);
+
+  box-shadow: var(--shadow-2);
+}
+
+.avatar-box img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
 
   /**
    * #MAIN
